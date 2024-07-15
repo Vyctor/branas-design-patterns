@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "npx jest",
+    "test:watch": "npm run test -- --watch"
+  },
   "dependencies": {
     "@hapi/hapi": "^21.3.7",
     "@types/axios": "^0.14.0",
