@@ -1,8 +1,8 @@
 import {
   PriceInstallmentCalculator,
   SACInstallmentCalculator,
-} from "./InstallmentCalculator";
-import { MortgageLoan } from "./Loan";
+} from "../InstallmentCalculator";
+import { MortgageLoan } from "../Loan";
 
 test("Deve calcular as parcelas utilizando SAC", () => {
   const installmentCalculator = new SACInstallmentCalculator();

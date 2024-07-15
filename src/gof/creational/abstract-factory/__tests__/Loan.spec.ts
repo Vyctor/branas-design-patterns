@@ -1,4 +1,4 @@
-import { CarLoan, MortgageLoan } from "./Loan";
+import { CarLoan, MortgageLoan } from "../Loan";
 
 test("Deve criar um financiamento imobiliário", () => {
   const loan = MortgageLoan.create({

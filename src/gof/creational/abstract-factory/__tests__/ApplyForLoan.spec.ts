@@ -1,7 +1,7 @@
-import ApplyForLoan from "./ApplyForLoan";
-import GetLoan from "./GetLoan";
-import { RepositoryMemoryFactory } from "./RepositoryFactory";
-import { MortgageLoanFactory } from "./LoanFactory";
+import ApplyForLoan from "../ApplyForLoan";
+import GetLoan from "../GetLoan";
+import { RepositoryMemoryFactory } from "../RepositoryFactory";
+import { MortgageLoanFactory } from "../LoanFactory";
 
 test("Deve solicitar um financiamento imobiliário", async () => {
   const repositoryFactory = new RepositoryMemoryFactory();
