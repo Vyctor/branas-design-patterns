@@ -11,7 +11,8 @@ export class UserRepositoryMemory implements UserRepository {
 
   private users: Array<User>;
 
-  constructor() {
+  // Definir o construtor como privado
+  private constructor() {
     this.users = new Array<User>();
   }
 
