@@ -1,6 +1,6 @@
-import Location from "./Location";
-import Ride, { DistanceRide, TimeRide } from "./Ride";
-import { DistanceSegment, TimeSegment } from "./Segment";
+import Location from "../Location";
+import Ride, { DistanceRide, TimeRide } from "../Ride";
+import { DistanceSegment, TimeSegment } from "../Segment";
 
 test("Deve criar e calcular a tarifa de uma corrida por distância", function () {
   const lastLocation = new Location(

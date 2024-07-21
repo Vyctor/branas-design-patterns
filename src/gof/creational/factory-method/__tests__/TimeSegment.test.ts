@@ -1,5 +1,5 @@
-import Location from "./Location";
-import { TimeSegment } from "./Segment";
+import Location from "../Location";
+import { TimeSegment } from "../Segment";
 
 test("Deve criar um segmento por tempo", () => {
   const fromLocation = new Location(

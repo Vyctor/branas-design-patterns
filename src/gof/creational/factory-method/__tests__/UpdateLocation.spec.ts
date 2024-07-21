@@ -1,8 +1,8 @@
-import CalculateFare from "./CalculateFare";
-import Ride, { DistanceRide, TimeRide } from "./Ride";
-import { RideRepositoryMemory } from "./RideRepository";
-import { SegmentRepositoryMemory } from "./SegmentRepository";
-import { UpdateLocation } from "./UpdateLocation";
+import CalculateFare from "../CalculateFare";
+import Ride, { DistanceRide, TimeRide } from "../Ride";
+import { RideRepositoryMemory } from "../RideRepository";
+import { SegmentRepositoryMemory } from "../SegmentRepository";
+import { UpdateLocation } from "../UpdateLocation";
 
 test("Deve atualizar a localização de uma corrida por distância", async function () {
   const rideRepository = new RideRepositoryMemory();
