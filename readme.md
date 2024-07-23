@@ -9,3 +9,5 @@
 [Singleton](./src/gof/creational/singleton/README.MD)
 
 [Prototype](./src/gof/creational/prototype/README.md)
+
+[Builder](./src/gof/creational/builder/README.md)
