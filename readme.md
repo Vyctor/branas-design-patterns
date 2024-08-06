@@ -11,3 +11,9 @@
 [Prototype](./src/gof/creational/prototype/README.md)
 
 [Builder](./src/gof/creational/builder/README.md)
+
+## Structural
+
+[Adapter](./src/gof/structural/adapter/README.md)
+
+[Flyweight](./src/gof/structural/flyweight/README.md)
